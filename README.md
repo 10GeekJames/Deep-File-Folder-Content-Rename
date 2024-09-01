@@ -2,14 +2,19 @@
 <h1> Safely and recursively rename folders, files, and file content</h1>
 <sub>A super quick, gets the job done way to rename everything everywhere and sort of know what changes took place. Works against .zip files to keep your original files safe.</sub>
 
-<h3>How to most easily get the latest executables</h3>
+<!-- <h3>How to most easily get the latest executables</h3>
   
   * <a href="https://github.com/10GeekJames/DeepRename/tree/main/Runnables/DeepRenameExecutable.zip">DeepRenameExecutable.zip</a>
 *<small>The first time you run the common "Windows protected your PC", don't run screen will appear, click "More Info" and you can select to run.</small>
-
+ -->
 
 <h3>How to use</h3>
+<h4>WPF application</h4>
+- You can dotnet run the WPF application for a UI that supports selecting the .zip or .7z to unpack, and a list of changes to make.
 
+<h4>Console application</h4>
+- You can dotnet run the console application for a command line interface that requires a deeprename.zip file be located in the .exe directory and will prompt for search, multiple replacements are supported.
+  
 - <a href="https://www.youtube.com/watch?v=BxEC-0aQ650" target="_blank">Quick Video Tour (3-min)</a>
 
 - Clean and prepare your work for renaming, ie. delete everything you can. npm packages, /bin & /obj folders etc.
