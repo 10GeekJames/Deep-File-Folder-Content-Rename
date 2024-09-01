@@ -3,8 +3,8 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
+    <ErrorOnDuplicatePublishOutputFiles>false</ErrorOnDuplicatePublishOutputFiles>
   </PropertyGroup>
-
   <ItemGroup>
     <Content Remove="deeprename\**" />
     <Compile Remove="deeprename\**" />
@@ -15,7 +15,7 @@
     <PackageReference Include="EPPlus" Version="5.7.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\_Library\AbcSharp.Tool.DeepRenamer.csproj" />
+    <ProjectReference Include="..\..\_Library\AbcSharp.Tool.DeepRenamer.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Update="7zr.exe">

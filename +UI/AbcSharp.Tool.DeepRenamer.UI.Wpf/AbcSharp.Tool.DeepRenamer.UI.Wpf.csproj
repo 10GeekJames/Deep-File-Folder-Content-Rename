@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\_Library\AbcSharp.Tool.DeepRenamer.csproj" />
+    <ProjectReference Include="..\..\_Library\AbcSharp.Tool.DeepRenamer.csproj" />
   </ItemGroup>
 
 </Project>
