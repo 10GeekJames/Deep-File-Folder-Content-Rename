@@ -9,6 +9,7 @@
  -->
 
 <h3>How to use</h3>
+<h4>Executables can be downloaded from <a href="https://github.com/10GeekJames/Deep-File-Folder-Content-Rename/tree/main/__Build/Runnables" target="_blank">Runnable Exe's</a> </h4>
 <h4>WPF application</h4>
 - You can dotnet run the WPF application for a UI that supports selecting the .zip or .7z to unpack, and a list of changes to make.
 
